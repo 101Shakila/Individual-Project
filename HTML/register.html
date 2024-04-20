@@ -1,0 +1,78 @@
+<!-- Shakila Samaradiwakara 8886070 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/indiproject.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div id="navcontainer">
+        <nav>
+            <ul>
+                <li><a href="home.html">HomePage</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="quote.html">Quote</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <form id="formBox">
+            <h1>Register Form</h1>
+            <h3>Fill out the form to register your account for this assignment</h3>
+
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="first Name..." />
+            <span class='error' id="firstNameError"></span>
+
+            <br />
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="username..." />
+            <span class='error' id="usernameError"></span>
+
+            <br />
+            <label for="birthdate">Select Birthday</label>
+            <input type="text" id="birthdate" placeholder="Select your birthday..." />
+            <span class='error' id="birthdateError"></span>
+
+
+            <br />
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="password..." />
+            <span class='error' id="passwordError"></span>
+
+
+            <br />
+            <label for="repassword">Confirm Password</label>
+            <input type="password" id="repassword" placeholder="Re-enter password..." />
+            <span class='error' id="repasswordError"></span>
+
+
+            <br />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@gmail.com..." />
+            <span class='error' id="emailError"></span>
+
+            <br />
+
+            <button type="submit">Register</button>
+        </form>
+
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="/JS/register.js"></script>
+</body>
+
+</html>

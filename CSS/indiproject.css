@@ -1,0 +1,382 @@
+/* Shakila Samaradiwakara 8886070 */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(#D4145A, #FBB03B);
+    background-repeat: no-repeat;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+
+main {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+
+ul {
+    padding: 0px;
+}
+
+#formBox h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: comic sans ms;
+
+}
+
+#formBox h3 {
+    font-family: comic sans ms;
+    text-align: center;
+    color: lightgray;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 13px;
+
+}
+
+
+#formBox label {
+
+    font-family: comic sans ms;
+    font-weight: bold;
+    margin: 5px;
+    transition-duration: 0.2s;
+
+}
+
+
+#formBox input {
+    font-family: comic sans ms;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    text-indent: 10px;
+    transition-duration: 0.2s;
+
+}
+
+#formBox button {
+    font-family: comic sans ms;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+
+
+}
+
+#formBox button:hover {
+    font-family: comic sans ms;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    height: 55px;
+    width: 175px;
+    border-radius: 20px;
+    background-color: rgb(83, 240, 188);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+.ui-datepicker {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+
+.ui-datepicker-header {
+    background-color: #cfcfcf;
+    border-bottom: 2px solid #ccc;
+}
+
+
+#navcontainer {
+    display: flex;
+    justify-content: left;
+    background-color: rgba(245, 245, 220, 0.63);
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    transition-duration: 1s;
+
+}
+
+
+#formBox {
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -10px;
+    background-color: rgb(255, 255, 255);
+    height: 720px;
+    width: 40%;
+    border-radius: 25px;
+    transition-duration: 0.2s;
+
+}
+
+nav {
+
+    font-family: comic sans ms;
+    color: rgb(0, 0, 0);
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 15px;
+    transition-duration: 0.4s;
+}
+
+nav a:hover {
+    text-shadow: 0px 0px 0.8px rgb(0, 0, 0);
+    background: radial-gradient(rgba(255, 130, 130, 0.731) 0, transparent 75%);
+    font-size: 21px;
+    padding: 15px 15px 0px 15px;
+    transition-duration: 0.4s;
+}
+
+
+.error {
+    color: red;
+    font-size: 15px;
+}
+
+
+/*Quote css */
+
+
+
+#quoteContainer {
+    margin-top: 100px;
+    padding: 50px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -10px;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 60%;
+    border-radius: 25px;
+    transition-duration: 0.2s;
+
+}
+
+
+button {
+    font-family: comic sans ms;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(176, 225, 209);
+
+
+}
+
+button:hover {
+    font-family: comic sans ms;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(83, 240, 188);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+#quoteContainer h2 {
+    text-align: center;
+    font-family: comic sans ms;
+
+}
+
+
+/*Quiz css */
+
+#answerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    height: 700px;
+    width: 1000px;
+    font-family: comic sans ms;
+    transition-duration: 0.4s;
+}
+
+#question {
+
+    margin: 25px 50px 25px 50px;
+    padding: 50px;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -10px;
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 600px;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+}
+
+
+#answer1,
+#answer2,
+#answer3,
+#answer4 {
+
+    margin: 25px 50px 25px 50px;
+    padding: 50px;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -10px;
+    background-color: rgb(255, 255, 255);
+    height: 75px;
+    width: 200px;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+
+}
+
+
+#answerContainer div:hover {
+
+    margin: 25px 50px 25px 50px;
+    padding: 50px;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -10px;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 200px;
+    border-radius: 25px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: rgb(0, 255, 170);
+    transition-duration: 0.4s;
+
+}
+
+
+.ui-widget-header {
+    background: #809bff;
+    border: 1px solid #DDDDDD;
+    color: #333333;
+    font-weight: bold;
+    height: 50px;
+    transition-duration: 1s;
+}
+
+#finalResult {
+    margin-top: 100px;
+    padding: 50px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -10px;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 60%;
+    border-radius: 25px;
+    transition-duration: 2s;
+
+}
+
+#finalResult h1,
+h2 {
+    text-align: center;
+    font-family: comic sans ms;
+
+}
+
+
+
+#homeActivity {
+
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px 50px 25px 50px;
+    padding: 50px;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -10px;
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 600px;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+}
+
+
+.activityOption {
+
+    margin: 25px 50px 25px 50px;
+    padding: 20px 130px 130px 130px;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -10px;
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    width: 200px;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+
+}
+
+.activityOption img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+
+}
+
+
+#activityContainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    height: 1500px;
+    width: 1000px;
+    font-family: comic sans ms;
+    transition-duration: 0.4s;
+
+}
