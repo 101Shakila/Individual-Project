@@ -4,7 +4,7 @@
 $(document).ready(function () {
 
 
-    //object array containing the author and quote
+    //object array containing the authors and respective quote
     let quoteList = [
         {
             "quote": "Genius is one percent inspiration and ninety-nine percent perspiration.",
